@@ -1,0 +1,134 @@
+{
+    "buildhost_description": {
+        "id": "lab002c03",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "g++ (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.cpp: In instantiation of ‘TipVrijednosti& NizMapa<TipKljuca, TipVrijednosti>::operator[](TipKljuca) [with TipKljuca = double; TipVrijednosti = int]’:\nmain.cpp:331:17:   required from here\nmain.cpp:243:29: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]\n             if(niz[i].kljuc == k) return niz[i].vrijednost;\n                ~~~~~~~~~~~~~^~~~\nmain.cpp: In instantiation of ‘TipVrijednosti NizMapa<TipKljuca, TipVrijednosti>::operator[](TipKljuca) const [with TipKljuca = double; TipVrijednosti = int]’:\nmain.cpp:353:1:   required from here\nmain.cpp:253:29: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]\n             if(niz[j].kljuc == k) return niz[j].vrijednost;\n                ~~~~~~~~~~~~~^~~~\nmain.cpp: In instantiation of ‘void NizMapa<TipKljuca, TipVrijednosti>::obrisi(const TipKljuca&) [with TipKljuca = double; TipVrijednosti = int]’:\nmain.cpp:353:1:   required from here\nmain.cpp:275:37: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]\n             if(niz.trenutni().kljuc == kljuc) {\n",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "243",
+                "col": "29",
+                "message": "comparing floating point with == or != is unsafe",
+                "output": "/tmp/buildservice/bs_9079/main.cpp:243:29: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]             if(niz[i].kljuc == k) return niz[i].vrijednost;                ~~~~~~~~~~~~~^~~~/tmp/buildservice/bs_9079/main.cpp: In instantiation of ‘TipVrijednosti NizMapa<TipKljuca, TipVrijednosti>::operator[](TipKljuca) const [with TipKljuca = double; TipVrijednosti = int]’:/tmp/buildservice/bs_9079/main.cpp:353:1:   required from here",
+                "code": "if(niz[i].kljuc == k) return niz[i].vrijednost;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "253",
+                "col": "29",
+                "message": "comparing floating point with == or != is unsafe",
+                "output": "/tmp/buildservice/bs_9079/main.cpp:253:29: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]             if(niz[j].kljuc == k) return niz[j].vrijednost;                ~~~~~~~~~~~~~^~~~/tmp/buildservice/bs_9079/main.cpp: In instantiation of ‘void NizMapa<TipKljuca, TipVrijednosti>::obrisi(const TipKljuca&) [with TipKljuca = double; TipVrijednosti = int]’:/tmp/buildservice/bs_9079/main.cpp:353:1:   required from here",
+                "code": "if(niz[j].kljuc == k) return niz[j].vrijednost;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "275",
+                "col": "37",
+                "message": "comparing floating point with == or != is unsafe",
+                "output": "/tmp/buildservice/bs_9079/main.cpp:275:37: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]             if(niz.trenutni().kljuc == kljuc) {",
+                "code": "if(niz.trenutni().kljuc == kljuc) {"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1629": {
+            "status": 1,
+            "run_result": {
+                "output": "2 Hrvatska '' '' 3 '' 0 '' ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1630": {
+            "status": 1,
+            "run_result": {
+                "output": "2 2 2 BiH 2 BiH 1 '' 0 ''",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1631": {
+            "status": 1,
+            "run_result": {
+                "output": "3 Sarajevo Tuzla 4",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1632": {
+            "status": 1,
+            "run_result": {
+                "output": "2 300 0 2 400 3",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1633": {
+            "status": 1,
+            "run_result": {
+                "output": "10000",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1634": {
+            "status": 1,
+            "run_result": {
+                "output": "200 2 1 0 0 0 300",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1576534469
+}

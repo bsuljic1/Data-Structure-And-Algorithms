@@ -1,0 +1,8 @@
+/rhome/b/bsuljic1/workspace/ASP/Z4/Z1/main.cpp: In instantiation of ‘void AVLStabloMapa<TipKljuca, TipVrijednosti>::rotacijaUdesno(AVLCvor<TipKljuca, TipVrijednosti>*) [with TipKljuca = int; TipVrijednosti = int]’:
+/rhome/b/bsuljic1/workspace/ASP/Z4/Z1/main.cpp:134:27:   required from ‘void AVLStabloMapa<TipKljuca, TipVrijednosti>::azurirajBalans(AVLCvor<TipKljuca, TipVrijednosti>*&) [with TipKljuca = int; TipVrijednosti = int]’
+/rhome/b/bsuljic1/workspace/ASP/Z4/Z1/main.cpp:188:42:   required from ‘void AVLStabloMapa<TipKljuca, TipVrijednosti>::umetni(AVLCvor<TipKljuca, TipVrijednosti>*&) [with TipKljuca = int; TipVrijednosti = int]’
+/rhome/b/bsuljic1/workspace/ASP/Z4/Z1/main.cpp:245:15:   required from ‘TipVrijednosti& AVLStabloMapa<TipKljuca, TipVrijednosti>::operator[](TipKljuca) [with TipKljuca = int; TipVrijednosti = int]’
+/rhome/b/bsuljic1/workspace/ASP/Z4/Z1/main.cpp:336:12:   required from here
+/rhome/b/bsuljic1/workspace/ASP/Z4/Z1/main.cpp:88:49: warning: statement has no effect [-Wunused-value]
+         if(postojiLijevo == false) cvor->lijevo == nullptr;
+                                    ~~~~~~~~~~~~~^~~~~~~~~~

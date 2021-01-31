@@ -1,0 +1,144 @@
+{
+    "buildhost_description": {
+        "id": "lab002c02",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "g++ (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.cpp: In instantiation of ‘void AVLStabloMapa<TipKljuca, TipVrijednosti>::rotacijaUdesno(AVLCvor<TipKljuca, TipVrijednosti>*) [with TipKljuca = int; TipVrijednosti = int]’:\nmain.cpp:134:27:   required from ‘void AVLStabloMapa<TipKljuca, TipVrijednosti>::azurirajBalans(AVLCvor<TipKljuca, TipVrijednosti>*&) [with TipKljuca = int; TipVrijednosti = int]’\nmain.cpp:188:42:   required from ‘void AVLStabloMapa<TipKljuca, TipVrijednosti>::umetni(AVLCvor<TipKljuca, TipVrijednosti>*&) [with TipKljuca = int; TipVrijednosti = int]’\nmain.cpp:245:15:   required from ‘TipVrijednosti& AVLStabloMapa<TipKljuca, TipVrijednosti>::operator[](TipKljuca) [with TipKljuca = int; TipVrijednosti = int]’\nmain.cpp:336:12:   required from here\nmain.cpp:88:49: warning: statement has no effect [-Wunused-value]\n         if(postojiLijevo == false) cvor->lijevo == nullptr;\n                                    ~~~~~~~~~~~~~^~~~~~~~~~",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "88",
+                "col": "49",
+                "message": "statement has no effect",
+                "output": "/tmp/buildservice/bs_3466/main.cpp:88:49: warning: statement has no effect [-Wunused-value]         if(postojiLijevo == false) cvor->lijevo == nullptr;                                    ~~~~~~~~~~~~~^~~~~~~~~~",
+                "code": "if(postojiLijevo == false) cvor->lijevo == nullptr;"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1771": {
+            "status": 1,
+            "run_result": {
+                "output": "2 Hrvatska '' '' 3 '' 0 '' ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1772": {
+            "status": 1,
+            "run_result": {
+                "output": "2 2 2 BiH 2 BiH 1 '' 0 ''",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1773": {
+            "status": 1,
+            "run_result": {
+                "output": "3 Sarajevo Tuzla 4",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1774": {
+            "status": 1,
+            "run_result": {
+                "output": "2 300 0 2 400 3",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1775": {
+            "status": 1,
+            "run_result": {
+                "output": "200 2 1 0 0 0 300",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1776": {
+            "status": 1,
+            "run_result": {
+                "output": "4.5 7 0 5 8 0 2 1.5 1 0.5 0 8 1.5 3 0 8 0",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1777": {
+            "status": 1,
+            "run_result": {
+                "output": "OK",
+                "duration": 6,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1778": {
+            "status": 4,
+            "run_result": {
+                "output": "Dodano 1000\nDodano 2000\nDodano 4000\nDodano 8000\nDodano 16000\n",
+                "duration": 10,
+                "status": 2
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1579386667
+}

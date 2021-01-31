@@ -1,0 +1,24 @@
+Pripremna Zadaca Za Vjezbu 7, Zadatak 1
+TEST 1
+Broj elemenata: 3
+Drugi element je: 2
+Test praznih
+Broj elemenata nakon brisanja: 0
+
+TEST 2
+Broj stanovnika Sarajeva: 275524
+Broj stanovnika Travnika: 57543
+Broj stanovnika Gorazda: 22080
+
+TEST 3
+Glavni grad Francuske je Pariz, Njemacke je Berlin, a Austrije je Bec
+
+TEST 4
+Poznati bosanski fudbaleri su: Edin Dzeko, Miralem Pjanic, Edin Visca
+Muzicari Dino Merlin, Dzejla Ramovic, Halid Beslic
+Knjizevnici Mesa Selimovic, Ivo Andric, Nura Bazdulj-Hubijar
+
+TEST 5
+Broj 5.8 zaokruzeno je 6
+Broj 10.1 zaokruzeno je 10
+Broj 12.6 zaokruzeno je 13

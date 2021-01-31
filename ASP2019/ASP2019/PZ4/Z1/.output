@@ -1,0 +1,22 @@
+Pripremna Zadaca Za Vjezbu 4, Zadatak 1
+Test brisi: Broj elemenata prije brisanja: 5
+Broj elemenata poslije brisanja: 0
+Test brojElemenata: 5
+Test celo: Celo: 1
+Test operator: 1
+2
+3
+4
+5
+Test skini: Broj elemenata prije izbacivanja: 5
+1 2 3 4 5 Broj elemenata poslije skini: 0
+Test stavi: 1
+2
+3
+4
+5
+6
+7
+8
+9
+10

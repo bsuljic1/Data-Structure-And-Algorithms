@@ -1,0 +1,14 @@
+Pripremna Zadaca Za Vjezbu 9, Zadatak 1NizMapa performanse: 
+Dodavanje novog elementa u mapu: 47348
+Pristup postojeceg elementa u mapi: 329
+Brisanje: 2228
+
+BinStabloMapa performanse: 
+Dodavanje novog elementa u mapu: 7003
+Pristup postojeceg elementa u mapi: 207
+Brisanje: 1983
+
+HashMapa performanse: 
+Dodavanje novog elementa u mapu: 29455
+Pristup postojeceg elementa u mapi: 265
+Brisanje: 322

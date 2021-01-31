@@ -1,0 +1,46 @@
+==31614== Memcheck, a memory error detector
+==31614== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==31614== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==31614== Command: /rhome/b/bsuljic1/workspace/ASP/PZ4/Z1/.runme
+==31614== Parent PID: 31588
+==31614== 
+==31614== Invalid read of size 8
+==31614==    at 0x10948F: Red<int>::~Red() (main.cpp:33)
+==31614==    by 0x1090F4: testbrisi() (main.cpp:188)
+==31614==    by 0x109360: main (main.cpp:219)
+==31614==  Address 0x5d7fdc8 is 8 bytes inside a block of size 16 free'd
+==31614==    at 0x4C3123B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31614==    by 0x109728: Red<int>::brisi() (main.cpp:111)
+==31614==    by 0x1090A7: testbrisi() (main.cpp:192)
+==31614==    by 0x109360: main (main.cpp:219)
+==31614==  Block was alloc'd at
+==31614==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31614==    by 0x109549: Red<int>::stavi(int const&) (main.cpp:123)
+==31614==    by 0x10904F: testbrisi() (main.cpp:190)
+==31614==    by 0x109360: main (main.cpp:219)
+==31614== 
+==31614== Invalid free() / delete / delete[] / realloc()
+==31614==    at 0x4C3123B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31614==    by 0x1094D5: Red<int>::~Red() (main.cpp:38)
+==31614==    by 0x1090F4: testbrisi() (main.cpp:188)
+==31614==    by 0x109360: main (main.cpp:219)
+==31614==  Address 0x5d7fdc0 is 0 bytes inside a block of size 16 free'd
+==31614==    at 0x4C3123B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31614==    by 0x109728: Red<int>::brisi() (main.cpp:111)
+==31614==    by 0x1090A7: testbrisi() (main.cpp:192)
+==31614==    by 0x109360: main (main.cpp:219)
+==31614==  Block was alloc'd at
+==31614==    at 0x4C3017F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==31614==    by 0x109549: Red<int>::stavi(int const&) (main.cpp:123)
+==31614==    by 0x10904F: testbrisi() (main.cpp:190)
+==31614==    by 0x109360: main (main.cpp:219)
+==31614== 
+==31614== 
+==31614== HEAP SUMMARY:
+==31614==     in use at exit: 0 bytes in 0 blocks
+==31614==   total heap usage: 41 allocs, 42 frees, 73,344 bytes allocated
+==31614== 
+==31614== All heap blocks were freed -- no leaks are possible
+==31614== 
+==31614== For counts of detected and suppressed errors, rerun with: -v
+==31614== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

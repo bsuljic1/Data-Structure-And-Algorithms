@@ -1,0 +1,27 @@
+Test brojElemenata: Broj elemenata: 5
+Test trenutni: Trenutni: 1
+Test prethodni: Trenutni: 4
+Test sljedeci: Sljedeci: 2
+Test pocetak: Pocetak: 1
+Test kraj: Kraj: 5
+Test obrisi: Broj elemenata prije brisanja trenutnog: 5
+Broj elemenata poslije brisanja trenutnog: 4
+
+Test dodajIspred: 10
+5
+4
+3
+2
+1
+Test dodajIza: 1
+10
+2
+3
+4
+5
+Test operatori: 1
+2
+3
+4
+5
+Test dajMaksimum: Maximum: 5

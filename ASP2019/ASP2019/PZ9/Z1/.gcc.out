@@ -1,0 +1,10 @@
+/rhome/b/bsuljic1/workspace/ASP/PZ9/Z1/main.cpp: In function ‘int main()’:
+/rhome/b/bsuljic1/workspace/ASP/PZ9/Z1/main.cpp:624:9: warning: unused variable ‘postojeci’ [-Wunused-variable]
+     int postojeci = nm[isti]; // pristup postojecem elementu u nm
+         ^~~~~~~~~
+/rhome/b/bsuljic1/workspace/ASP/PZ9/Z1/main.cpp:644:9: warning: unused variable ‘postojeci2’ [-Wunused-variable]
+     int postojeci2 = bsm[isti]; // pristup postojecem elementu u bsm
+         ^~~~~~~~~~
+/rhome/b/bsuljic1/workspace/ASP/PZ9/Z1/main.cpp:665:9: warning: unused variable ‘postojeci3’ [-Wunused-variable]
+     int postojeci3 = hm[isti]; //pristup postojecem elementu u hm
+         ^~~~~~~~~~

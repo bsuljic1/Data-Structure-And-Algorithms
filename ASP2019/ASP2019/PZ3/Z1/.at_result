@@ -1,0 +1,102 @@
+{
+    "buildhost_description": {
+        "id": "lab002c01",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "g++ (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.cpp: In function ‘void testFunkcija()’:\nmain.cpp:64:17: warning: ‘q’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n                 q->sljedeci = n;\n                 ^\nmain.cpp:57:20: note: ‘q’ was declared here\n         Cvor<Tip> *q;\n                    ^",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "64",
+                "col": "17",
+                "message": "'q' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_5534/main.cpp:64:17: warning: ‘q’ may be used uninitialized in this function [-Wmaybe-uninitialized]                 q->sljedeci = n;                 ^",
+                "code": "q->sljedeci = n;"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1276": {
+            "status": 1,
+            "run_result": {
+                "output": "5 5 5 5 4 3 2 1 0 5 5",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1283": {
+            "status": 1,
+            "run_result": {
+                "output": "5 4 3 2 1 5 4 3 2 1 4 3 2 1 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1284": {
+            "status": 1,
+            "run_result": {
+                "output": "99999\n0",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1285": {
+            "status": 1,
+            "run_result": {
+                "output": "Izuzetak",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1286": {
+            "status": 1,
+            "run_result": {
+                "output": "4 5",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 16,
+    "time": 1572979971
+}

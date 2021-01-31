@@ -1,0 +1,22 @@
+Zadaća 2, Zadatak 1
+Test brisi: 
+Broj elemenata prije brisanja: 5
+Broj elemenata poslije brisanja: 0
+Test staviNaCelo: 
+Broj elemenata poslije 5 stavljanja na celo: 5
+Test staviNaVrh: 
+Broj elemenata poslije 5 stavljanja na vrh: 5
+Test skiniSaCela: 
+Broj elemenata prije skidanja sa cela: 5
+Skini sa cela: 5
+Broj elemenata poslije skidanja sa cela: 4
+Test skiniSaVrha: 
+Broj elemenata prije skidanja sa vrha: 5
+Skini sa vrha: 1
+Broj elemenata poslije skidanja sa vrha: 4
+Test brojElemenata: 
+Broj elemenata u dvostranom redu: 5
+Test celo: 
+Element na celu dvostranog reda je: 5
+Test vrh: 
+Element na vrhu dvostranog reda je: 1

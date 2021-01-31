@@ -1,0 +1,36 @@
+==7610== Memcheck, a memory error detector
+==7610== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7610== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==7610== Command: /rhome/b/bsuljic1/workspace/ASP/Z4/Z1/.runme
+==7610== Parent PID: 7603
+==7610== 
+==7610== 
+==7610== Process terminating with default action of signal 24 (SIGXCPU): dumping core
+==7610==    at 0x1098E8: AVLStabloMapa<int, int>::azurirajBalans(AVLCvor<int, int>*&) (main.cpp:148)
+==7610==    by 0x1098E7: AVLStabloMapa<int, int>::azurirajBalans(AVLCvor<int, int>*&) (main.cpp:148)
+==7610==    by 0x1098E7: AVLStabloMapa<int, int>::azurirajBalans(AVLCvor<int, int>*&) (main.cpp:148)
+==7610==    by 0x1098E7: AVLStabloMapa<int, int>::azurirajBalans(AVLCvor<int, int>*&) (main.cpp:148)
+==7610==    by 0x1098E7: AVLStabloMapa<int, int>::azurirajBalans(AVLCvor<int, int>*&) (main.cpp:148)
+==7610==    by 0x1098E7: AVLStabloMapa<int, int>::azurirajBalans(AVLCvor<int, int>*&) (main.cpp:148)
+==7610==    by 0x1098E7: AVLStabloMapa<int, int>::azurirajBalans(AVLCvor<int, int>*&) (main.cpp:148)
+==7610==    by 0x1098E7: AVLStabloMapa<int, int>::azurirajBalans(AVLCvor<int, int>*&) (main.cpp:148)
+==7610==    by 0x1098E7: AVLStabloMapa<int, int>::azurirajBalans(AVLCvor<int, int>*&) (main.cpp:148)
+==7610==    by 0x1098E7: AVLStabloMapa<int, int>::azurirajBalans(AVLCvor<int, int>*&) (main.cpp:148)
+==7610==    by 0x1098E7: AVLStabloMapa<int, int>::azurirajBalans(AVLCvor<int, int>*&) (main.cpp:148)
+==7610==    by 0x1098E7: AVLStabloMapa<int, int>::azurirajBalans(AVLCvor<int, int>*&) (main.cpp:148)
+==7610== 
+==7610== HEAP SUMMARY:
+==7610==     in use at exit: 314,760 bytes in 7,869 blocks
+==7610==   total heap usage: 7,870 allocs, 1 frees, 387,464 bytes allocated
+==7610== 
+==7610== LEAK SUMMARY:
+==7610==    definitely lost: 0 bytes in 0 blocks
+==7610==    indirectly lost: 0 bytes in 0 blocks
+==7610==      possibly lost: 0 bytes in 0 blocks
+==7610==    still reachable: 314,760 bytes in 7,869 blocks
+==7610==         suppressed: 0 bytes in 0 blocks
+==7610== Reachable blocks (those to which a pointer was found) are not shown.
+==7610== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==7610== 
+==7610== For counts of detected and suppressed errors, rerun with: -v
+==7610== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
